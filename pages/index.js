@@ -12,7 +12,7 @@ export default function Home() {
         <div className="showcase_container container">
           <h1 className="showcase_title title title-main">Welcome to Ye Olde Coin Co. Coin Dealers Adelaide South Australia</h1>
           <picture className="showcase_image">
-            <Image className="img" src="/../public/images/Homepage_image.png" width={500} height={500} />
+            <img src="/images/Homepage_image.png" />
           </picture>
         </div>
       </section>
