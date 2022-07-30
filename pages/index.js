@@ -26,25 +26,25 @@ export default function Home() {
         <div className="swiper myswiper">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_1.png" width={500} height={480} />
+              <img src="/images/swiper_images/swiper_image_1.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_2.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_2.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_3.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_3.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_4.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_4.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_5.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_5.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_6.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_6.png" />
             </div>
             <div className="swiper-slide">
-              <Image src="/../public/images/swiper_images/swiper_image_7.png" width={500} height={480}/>
+              <img src="/images/swiper_images/swiper_image_7.png" />
             </div>
           </div>
         </div>
