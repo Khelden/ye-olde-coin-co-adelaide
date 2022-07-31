@@ -9,7 +9,7 @@ const Layout = ( {children} ) => {
             <Navigation />
             { children }
             <Footer />
-            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer />
             <Script src="/../coding/swiper_code.js" />
             <Script src="/../coding/programming.js" />
         </div>
