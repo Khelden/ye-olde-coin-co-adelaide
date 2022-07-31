@@ -3,12 +3,16 @@ import Image from 'next/image'
 import Footer from '../components/footer'
 import Navigation from '../components/navigation_bar'
 import styles from '../styles/Home.module.css'
+import Script from 'next/script'
 
 export default function Home() {
   return (
     <main>
+
+      <link rel="stylesheet" href="./css/style.css" />
       {/* SHOWCASE */}
       <section className="showcase" id="home">
+
         <div className="showcase_container container">
           <h1 className="showcase_title title title-main">Welcome to Ye Olde Coin Co. Coin Dealers Adelaide South Australia</h1>
           <picture className="showcase_image">
@@ -26,30 +30,33 @@ export default function Home() {
         <div className="swiper myswiper">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_1.png" />
+              <img src="/images/swiper_images/swiper_image_1.png" alt="" />
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_2.png" />
+              <img src="/images/swiper_images/swiper_image_2.png" alt=""/>
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_3.png" />
+              <img src="/images/swiper_images/swiper_image_3.png" alt=""/>
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_4.png" />
+              <img src="/images/swiper_images/swiper_image_4.png" alt=""/>
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_5.png" />
+              <img src="/images/swiper_images/swiper_image_5.png" alt=""/>
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_6.png" />
+              <img src="/images/swiper_images/swiper_image_6.png" alt=""/>
             </div>
             <div className="swiper-slide">
-              <img src="/images/swiper_images/swiper_image_7.png" />
+              <img src="/images/swiper_images/swiper_image_7.png" alt=""/>
             </div>
           </div>
+          <div className="swiper-pagination" />
         </div>
       </div>
+
     </section>
     </main>
+    
   )
 }
