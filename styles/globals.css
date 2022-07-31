@@ -228,11 +228,6 @@ button {
     padding-bottom: 12rem;
 }
 
-.portfolio_metadata {
-    padding-bottom: 4rem;
-    text-align: left;
-}
-
 /*! === FOOTER === */
 .footer {
   background-color: var(--dark-clr);
