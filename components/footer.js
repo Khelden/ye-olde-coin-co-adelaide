@@ -31,17 +31,17 @@ const Footer = () => {
                         <ul className="footer_list">
                             <li className="footer_list-item">
                                 <a href="" className="footer_list-link">
-                                    <i class="ri-twitter-line"></i>
+                                    <i className="ri-twitter-line"></i>
                                 </a>
                             </li>
                             <li className="footer_list-item">
                                 <a href="https://www.ebay.com.au/str/yeoldecoinco" className="footer_list-link">
-                                    <i class="ri-store-line"></i>
+                                    <i className="ri-store-line"></i>
                                 </a>
                             </li>
                             <li className="footer_list-item">
                                 <a href="https://www.facebook.com/yeoldecoinco/?ref=page_internal" className="footer_list-link">
-                                    <i class="ri-facebook-box-fill"></i>
+                                    <i className="ri-facebook-box-fill"></i>
                                 </a>
                             </li>
                         </ul>
