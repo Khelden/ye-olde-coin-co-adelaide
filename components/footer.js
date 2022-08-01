@@ -5,7 +5,6 @@ import Script from 'next/script'
 const Footer = () => {
     return (
         <footer className="footer">
-            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
             <div className="footer_container container">
                 <div className="footer_group">
                     <h2 className="footer_title title title-main">Looking for the best Coin Dealer Service?</h2>
