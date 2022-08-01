@@ -5,6 +5,7 @@ import Script from 'next/script'
 const Footer = () => {
     return (
         <footer className="footer">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
             <div className="footer_container container">
                 <div className="footer_group">
                     <h2 className="footer_title title title-main">Looking for the best Coin Dealer Service?</h2>
@@ -31,17 +32,17 @@ const Footer = () => {
                         <ul className="footer_list">
                             <li className="footer_list-item">
                                 <a href="" className="footer_list-link">
-                                    ri-twitter-line
+                                    <i class="ri-twitter-line"></i>
                                 </a>
                             </li>
                             <li className="footer_list-item">
-                                <a href="" className="footer_list-link">
-                                    ri-store-line
+                                <a href="https://www.ebay.com.au/str/yeoldecoinco" className="footer_list-link">
+                                    <i class="ri-store-line"></i>
                                 </a>
                             </li>
                             <li className="footer_list-item">
-                                <a href="" className="footer_list-link">
-                                    ri-facebook-box-fill
+                                <a href="https://www.facebook.com/yeoldecoinco/?ref=page_internal" className="footer_list-link">
+                                    <i class="ri-facebook-box-fill"></i>
                                 </a>
                             </li>
                         </ul>
