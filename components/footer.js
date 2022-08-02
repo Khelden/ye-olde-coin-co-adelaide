@@ -13,7 +13,7 @@ const Footer = () => {
                 <span className="footer_separator"></span>
                     <div className="footer_group">
                       <Link href="/" >
-                        <a className="navbar_logo"><img className="navbar_logo-image" src="/images/logo_image.png"/></a>
+                        <a className="footer_logo"><img className="navbar_logo-image" src="/images/logo_image.png"/></a>
                       </Link>
                         <p className="footer_description">Knowledge is everything in collectables, if you are not prepared to spend money on books, catalogues, magazines, etc to research your field then what hope have you got?? 
                         I cannot believe the number of people who put money into coins and notes WITHOUT any proper research! 
